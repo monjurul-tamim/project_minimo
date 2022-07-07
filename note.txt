@@ -1,0 +1,18 @@
+color---
+
+  ash---- #626262
+
+photodairy-- #b4ad9e
+
+
+
+
+  font---
+  menu-- playfair display-- regular
+
+  text--- p--ubuntu lite
+          h1-- playfair display-- regular
+
+
+
+    

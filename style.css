@@ -1,0 +1,301 @@
+/*fonts link start*/
+@font-face{
+	src:url(fonts/playfair-display/playfairdisplay-regular.ttf);
+	font-family: playfairdisplay-regular;
+}
+@font-face{
+	src:url(fonts/ubuntu/Ubuntu-L.ttf);
+	font-family: Ubuntu-L;
+}
+/*fonts link end*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*common code start*/
+body{
+	font-family: playfairdisplay-regular;
+	font-weight: 400;
+	font-size:16px;
+	color:#626262;
+}
+/*common code end*/
+/*header start*/
+header{
+	padding-top:10px;
+	margin-bottom: 50px;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+
+}
+.logo{
+	margin-top: 10px;
+	width: 10%;
+	float:left; 
+
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 60%;
+	float:right; 
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 15px 60px;
+	
+	font-family:playfairdisplay-regular;
+	font-weight:400 ;
+	font-size: 14px;
+	color:  #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+
+}
+.menu ul li:nth-child(4) a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	text-decoration: underline;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+
+/*perfect section start*/
+.perfect{
+	padding: 80px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	
+}
+.p_content{}
+.p_photo{
+	margin-top: 25px;
+	
+	font-family:Ubuntu-L;
+	font-weight:300;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.p_h1{
+	margin: 20px 0;
+	font-family: ;
+	font-weight: ;
+	font-size: 30px;
+}
+.p_text{
+	margin: 0;
+	line-height: 25px;
+}
+.p_leave{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-family: Ubuntu-L;
+	font-weight: 300;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+/*perfect section end*/
+/* bloog section start*/
+.bloog{
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+.b_content{
+	overflow: hidden;
+}
+
+.b_single{
+	margin-top: 50px;
+	width: 47%;
+	float: left;
+
+}
+.b_single:nth-child(even){
+	margin-left: 6%;
+}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+
+/* bloog section end*/
+
+/*newsletter section start*/
+.newsletter{
+	padding: 90px 0;
+	background-color: #f0f0f0;
+}
+.n_content{
+	text-align: center;
+}
+.n_h1{
+	margin-top: 0;
+	margin-bottom: 80px;
+	color: #333333;
+}
+.n_form{
+	margin: 0 auto;
+	width: 360px;
+	position: relative;
+}
+.n_form input{
+	padding-right: 40px;
+	width: 320px;
+	height: 45px;
+	font-family:playfairdisplay-regular;
+	font-weight:400 ;
+	font-size: 14px;
+	color:  #626262;
+	border: none;
+	border-bottom: 1px solid #333333;
+	background-color: transparent;
+}
+.n_form input:focus{
+	outline: 0;
+}
+.n_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top:15px;
+	right:0;
+}
+.n_form button:focus{
+	outline: 0;
+}
+.n_form button img{}
+
+/*newsletter section end*/
+
+
+
+/*post start*/
+.post{
+	padding-top: 40px;
+	padding-bottom: 80px;
+	
+}
+.po_content{
+	overflow: hidden;
+}
+/*post end*/
+/*load start*/
+.load{
+	padding-top: 90px;
+	padding-bottom: 180px;
+}
+.container3{
+	margin: 0 auto;
+	width: 15%;
+	
+}
+.l_content{}
+.l_content button{
+	margin-left:45px;
+	padding:10px;
+	background-color: white;
+	font-family:playfairdisplay-regular;
+	font-weight:400 ;
+	font-size:25px;
+	color:#626262 ;
+	border: none;
+	border: 1px solid #333333;
+	
+	border-radius:2px;
+}
+/*load end*/
+/*footer start*/
+footer{
+	padding: 35px 0;
+	background: #f0f0f0;
+}
+.f_content{
+	overflow: hidden;
+}
+.left{
+	width: 25%;
+	
+	float: left;
+}
+.left a{
+	margin-right: 20px;
+	font-family:playfairdisplay-regular;
+	font-weight:400 ;
+	font-size: 14px;
+	color:#000000;
+	text-decoration: none;
+	
+}
+.left:nth-child(2) a{
+	margin-right: 0;
+}
+.right{
+	margin-right: 0;
+	width: 15%;
+	
+	float: right;
+}
+.f_text{
+	width: 30%;
+	float: left;
+}
+.f_text a{
+	margin-right: 10px;
+	font-family:playfairdisplay-regular;
+	font-weight:400 ;
+	font-size: 14px;
+	color:#000000;
+	text-decoration: none;
+}
+.f_img{
+	
+	width: 65%;
+	float: right;
+	overflow: hidden;
+}
+.f_fimg1{
+	width: 30%;
+	float: left;
+}
+
+.f_fimg2{
+	width: 30%;
+	float: left;
+}
+.f_fimg3{
+	width: 30%;
+	float: right;
+}
+
+/*footer end*/
+
+
+
+
+
+
+
